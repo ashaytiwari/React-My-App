@@ -1,38 +1,429 @@
-.App {
-  text-align: center;
+html{
+    overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Loading page starts */
+.loadingPage .well{
+    border-radius: 10px;
 }
+.loadingPage{
+    background-color: black;
+}
+ /* Loading page closes */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Header.js starts */
+.jumbotron{
+    background-color: #080808;
+    padding: 100px 150px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.jumbotron h1{
+    color: orangered;
+    font-size: 70px;
+    font-family: Donegal One;
+}
+.jumbotron p{
+    color: orange;
+    font-size: 25px;
+    font-family: Kalam;
+}
+.jumbotron strong{
+    color: orangered;
+    font-family: Donegal One;
+}
+.subscribingBtn{
+    padding: 7px;
+    background-color: orange;
+    border: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    outline: 0;
+}
+.subscribing-form{
+    left: 200px;
+}
+/* Navbar starts */
+.navigation{
+    background-color:#080808 ;
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navigation li{
+    float: right;
+}
+.navigation a{
+    display: block;   
+    color: orange;  
+    text-align: center;  
+    padding: 14px 16px;   
+    text-decoration: none; 
+    font-size: 25px;
+    font-family: Donegal One;
+}
+.navigation .logo{
+    float: left;
+}
+.dropdown {
+    /* float: left; */
+    overflow: hidden;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .dropdown .glyphicon{
+      color: orange;
+      font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+  .dropdown .dropBtn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family:Donegal One; ; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
   }
+  .dropdown:hover .dropbtn {
+    background-color: inherit;
+  }
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: inherit;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(236, 91, 7, 0.938);
+    z-index: 1;
+    border-radius: 10px;
 }
+.dropdown-content a{
+     font-size: 20px !important; 
+     font-family: Kalam;
+     color: orangered;
+     padding: 5px 10px;
+     
+     
+}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* Navbar closes */
+/* Header.js  closes*/
+
+/* Home.js  starts*/
+.home{
+    background-color: #2b2523;
+    padding: 50px;
+}
+.home table{
+    border-collapse: collapse;
+    font-family: Kalam;
+    width: 100%;
+}
+.home th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #2b2523;
+    
+}
+.home th{
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    font-family: Donegal One;
+}
+.home td{
+    font-family: Kalam;
+    font-family: 20px;
+}
+.home tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;;
+}
+.home tr:nth-child(odd) {
+    background-color: orange;
+    color: white;
+}
+.home button{
+    border: 0;
+    color: white;
+    background-color: orangered;
+    outline: 0;
+}
+/* Home.js  closes*/
+
+/* User Entry.Js Starts */
+.user-entry{
+    background-color: #2b2523;
+    padding: 50px 60px;
+}
+.user-entry label{
+    font-size: 20px;
+    color: white;
+    font-family: Kalam;
+    margin-top: 0;
+}
+.user-entry .form-group{
+    margin: 25px;
+}
+.user-entry .btn{
+    margin-top: 52px;
+    outline: 0;
+}
+/* User Entry.Js Closes */
+
+/* About.js starts*/
+.about{
+    background-color:#2b2523 ;
+    padding: 40px;
+    color: white;
+}
+.about h2{
+    color: orangered;
+    font-family: Donegal One;
+}
+.about h4{
+    color: orange;
+    font-family: Kalam;
+}
+.about p{
+    font-family: Kalam;
+    font-size: 17px;
+}
+.about img{
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+}
+.about-content{
+    padding: 60px 30px;
+}
+/* About.js closes*/
+
+/* Counter.js */
+.counter{
+    background-color:#2b2523 ;
+    padding: 100px 0;
+}
+.countercard{
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 10px;
+}
+.counter h1{
+    color: white;
+    font-family: Donegal One;
+    border-radius: 10px;
+}
+.countcard{
+    background-color: #080808;
+    padding: 10px;
+    color: white;
+    font-family: Kalam;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.counter button{
+    background-color: #2b2523;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Kalam;
+    font-size: 20px;
+    outline: 0;
+}
+/* RefsDemo.js  starts*/
+.refs-demo{
+    background-color: #2b2523;
+    padding: 100px 0;
+}
+.refs-demo .card{
+    background-color:orangered; 
+    padding: 30px;
+    border-radius: 10px;
+}
+.refs-demo h2{
+    color: white;
+    font-family: Donegal One;
+    border-radius: 10px;
+}
+.refs-demo button{
+    background-color: #2b2523;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Kalam;
+    font-size: 20px;
+    outline: 0;
+}
+/* RefsDemo.js  closes*/
+
+/* ParentPortal.js starts */
+.parent-portal{
+    background-color: #2b2523;
+    padding: 60px 80px;
+    justify-content: center;
+}
+.parent-portal .card{
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 10px;
+}
+.parent-portal .card h1{
+    color: whitesmoke;
+    font-family: Donegal One;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.parent-portal .card p{
+    color: #2b2523;
+    font-family: Kalam;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.parent-portal .card button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #080808;
+    color: orange;
+    font-family: Kalam;
+    width: 20%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+/* ParentPortal.js closes */
+
+/* Portal-Demo.js starts */
+.portal{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    align-items: center;
+    background-color: black;
+    width: 60%;
+    height: 400px;
+    opacity: 0.5;
+    backdrop-filter: blur(2px);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px whitesmoke;
+}
+.portal:hover{
+    opacity: 1;
+}
+.portal-content h1{
+    color: orangered;
+    font-family: Donegal One;
+    letter-spacing: 4px;
+}
+.portal-content p{
+    color: whitesmoke;
+    font-family: Kalam;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.portal-content hr{
+    height: 2px;
+    color: orangered;
+}
+.portal-content button{
+    color: whitesmoke;
+    background-color: orange;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 15px;
+}
+/* Portal-Demo.js closes */
+
+/* ErrorBoundaryDemo.js starts */
+.errorboundarydemo{
+    background-color: #2b2523;
+    padding: 100px 120px;
+}
+.errorboundarydemo h2{
+    color: orangered;
+    font-family: Donegal One;
+}
+.errorboundarydemo h4{
+    color: orange;
+    font-family: Kalam;
+}
+.errorboundarydemo p{
+    font-family: Kalam;
+    font-size: 17px;
+    color: whitesmoke;
+}
+.demo1, .demo2{
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 50px 60px;
+}
+.demo1 p, .demo2 p{
+    font-family: Donegal One;
+    font-size: 20px;
+}
+.errorboundary h2{
+    color: whitesmoke;
+    font-family: Donegal One;
+}
+.errorboundary details{
+    font-family: Kalam;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.counter-text{
+    text-align: center;
+    padding: 10px;
+    color: #2b2523;
+    font-family: Kalam;
+    cursor: pointer;
+}
+/* ErrorBoundaryDemo.js closes */
+
+/* HOC.js */
+.HOC{
+    background-color: #2b2523;
+    padding: 100px 120px;
+}
+.HOC h1{
+    color: orangered;
+    font-family: Donegal One;
+}
+.HOC p{
+    color: whitesmoke;
+    font-family: Kalam;
+    font-size: 20px;
+}
+.HOC button{
+    border: 0;
+    outline: 0;
+    padding: 12px;
+    font-size: 18px;
+    color: orange;
+    border-radius: 10px;
+    background-color: #080808;
+    font-family: Donegal One;
+}
+.HOC img{
+    width: 600px;
+    border-radius: 10px;
+}
+.HOC .hover-heading{
+    padding: 12px;
+    font-size: 18px;
+    color: orange;
+    border-radius: 10px;
+    background-color: #080808;
+    font-family: Donegal One;
+}
+
+
+
+
