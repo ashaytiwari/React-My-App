@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-My-App/static/css/main.e61cb387.chunk.css",
+    "main.js": "/React-My-App/static/js/main.4c3e8305.chunk.js",
+    "main.js.map": "/React-My-App/static/js/main.4c3e8305.chunk.js.map",
+    "runtime-main.js": "/React-My-App/static/js/runtime-main.96bd96ef.js",
+    "runtime-main.js.map": "/React-My-App/static/js/runtime-main.96bd96ef.js.map",
+    "static/js/2.ca093aca.chunk.js": "/React-My-App/static/js/2.ca093aca.chunk.js",
+    "static/js/2.ca093aca.chunk.js.map": "/React-My-App/static/js/2.ca093aca.chunk.js.map",
+    "index.html": "/React-My-App/index.html",
+    "precache-manifest.9e4cf3eac7a3f7657a74bbe593dfeba8.js": "/React-My-App/precache-manifest.9e4cf3eac7a3f7657a74bbe593dfeba8.js",
+    "service-worker.js": "/React-My-App/service-worker.js",
+    "static/css/main.e61cb387.chunk.css.map": "/React-My-App/static/css/main.e61cb387.chunk.css.map",
+    "static/js/2.ca093aca.chunk.js.LICENSE.txt": "/React-My-App/static/js/2.ca093aca.chunk.js.LICENSE.txt",
+    "static/media/Higher-Order.png": "/React-My-App/static/media/Higher-Order.ab37609b.png",
+    "static/media/about.jpg": "/React-My-App/static/media/about.4658f38e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96bd96ef.js",
+    "static/js/2.ca093aca.chunk.js",
+    "static/css/main.e61cb387.chunk.css",
+    "static/js/main.4c3e8305.chunk.js"
+  ]
+}
