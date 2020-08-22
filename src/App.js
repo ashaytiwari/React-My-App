@@ -39,7 +39,7 @@ class App extends React.Component {
     const { characters } = this.state
     return (
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Suspense fallback={
           <div className="loadingPage row">
             <div className="col-md-3"></div>
